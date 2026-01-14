@@ -2,282 +2,289 @@
   "questions": [
     {
       "type": "mcq",
-      "question": "Who is credited with inventing the line chart, bar chart, and pie chart?",
-      "options": ["John Snow", "William Playfair", "Charles Minard", "Florence Nightingale"],
+      "question": "What is the core definition of visualization according to Lecture 1?",
+      "options": ["Artistic rendering of data", "Graphical representation of information or data", "Statistical summary of datasets", "Computer-generated animation"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Which visualization pioneer created the 1869 map of Napoleon’s Russian campaign?",
-      "options": ["William Playfair", "Charles Joseph Minard", "John Snow", "Edward Tufte"],
+      "question": "Anscombe’s Quartet proves that:",
+      "options": ["Scatterplots are always better than tables", "Statistical summaries can hide important patterns", "Color is essential for clarity", "3D charts are misleading"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "John Snow’s 1854 map used small bars to encode what?",
-      "options": ["Temperature", "Cholera deaths", "Population density", "Air quality"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Florence Nightingale’s ‘rose’ diagram is also called a:",
-      "options": ["Radar chart", "Coxcomb chart", "Streamgraph", "Sankey diagram"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which decade saw computers revolutionize visualization practice?",
-      "options": ["1940s", "1950s", "1960s", "1970s"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "The fovea accounts for roughly what percentage of our visual processing power?",
-      "options": ["5 %", "20 %", "50 %", "80 %"],
+      "question": "Which of the five basic data types describes 'friendship between two people'?",
+      "options": ["Item", "Attribute", "Link", "Position"],
       "correctAnswer": 2,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Which photoreceptors are responsible for color vision?",
-      "options": ["Rods", "Cones", "Ganglion cells", "Bipolar cells"],
+      "question": "A dataset where rows are patients and columns are vital signs is best described as:",
+      "options": ["Network", "Table", "Spatial field", "Tree"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Approximately what percentage of men have some form of color blindness?",
-      "options": ["1 %", "5 %", "10 %", "20 %"],
-      "correctAnswer": 2,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which illusion shows that identical gray squares appear different due to surrounding shadows?",
-      "options": ["Hermann Grid", "Ebbinghaus", "Checker-shadow", "Chevreul"],
-      "correctAnswer": 2,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "The Weber-Fechner law states that perceived change is proportional to the ________ of stimulus intensity.",
-      "options": ["Linear", "Logarithm", "Square", "Inverse"],
+      "question": "Shirt sizes {S, M, L, XL} are an example of which attribute type?",
+      "options": ["Categorical", "Ordinal", "Quantitative", "Binary"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Which channel has the highest discriminability for quantitative data?",
+      "question": "Which action is used when you know what you want but not where it is in the data?",
+      "options": ["Lookup", "Browse", "Locate", "Explore"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Creating 'trade balance' from 'exports' and 'imports' is an example of:",
+      "options": ["Annotating", "Recording", "Deriving", "Presenting"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Which Gestalt law explains why dots close together are seen as a group?",
+      "options": ["Similarity", "Proximity", "Common region", "Closure"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "The Chevreul illusion demonstrates that perceived brightness is influenced by:",
+      "options": ["Saturation", "Contextual bands", "Hue", "Motion"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Which level of vis design asks 'Are we showing the right thing?'",
+      "options": ["Domain", "Abstraction", "Idiom", "Algorithm"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Tufte’s lie factor compares:",
+      "options": ["Data variance to design variance", "Graphic effect size to data effect size", "Ink used to data pixels", "Chart area to data area"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Which channel is most effective for quantitative comparisons?",
       "options": ["Color hue", "Shape", "Position on common scale", "Area"],
       "correctAnswer": 2,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Redundant encoding means:",
-      "options": ["Using red color only", "Repeating the same graphic", "Mapping one attribute to multiple channels", "Deleting extra data"],
-      "correctAnswer": 2,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which mark type offers two free spatial channels in a 2-D visualization?",
-      "options": ["Point", "Line", "Area", "Volume"],
-      "correctAnswer": 0,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "A containment mark is used to show:",
-      "options": ["Friendship ties", "Hierarchical grouping", "Directed paths", "Continuous fields"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which color map is strongly discouraged for sequential data?",
-      "options": ["Viridis", "Plasma", "Rainbow", "Inferno"],
-      "correctAnswer": 2,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "For diverging data, an isoluminant ________ color map is recommended.",
-      "options": ["Red-green", "Yellow-blue", "Purple-orange", "Black-white"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which of these is NOT a preattentive attribute?",
-      "options": ["Length", "Orientation", "Color hue", "Texture granularity"],
-      "correctAnswer": 3,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "The psychophysical power-law exponent for area perception is approximately:",
+      "question": "Stevens’ power law for area perception has an exponent of about:",
       "options": ["0.5", "0.7", "1.0", "1.5"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Width vs height encoding suffers because humans tend to integrate them into:",
-      "options": ["Color", "Orientation", "Area", "Position"],
-      "correctAnswer": 2,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which action in task abstraction involves forming new hypotheses?",
-      "options": ["Lookup", "Explore", "Identify", "Annotate"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Shneiderman’s mantra step that provides context is:",
-      "options": ["Zoom", "Overview first", "Filter", "Details on demand"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "A streamgraph emphasizes continuity across:",
-      "options": ["Color", "Time", "Shape", "Size"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "Which idiom is best for part-to-whole comparisons with many categories?",
-      "options": ["Pie chart", "Bar chart", "Radar plot", "Dot plot"],
-      "correctAnswer": 1,
-      "points": 20
-    },
-    {
-      "type": "mcq",
-      "question": "A Coxcomb chart encodes data as radial ________ but we perceive ________.",
-      "options": ["length, area", "angle, length", "color, shape", "area, angle"],
+      "question": "Using both height and color saturation to show the same value is called:",
+      "options": ["Redundant encoding", "Integral encoding", "Separable encoding", "Diverging encoding"],
       "correctAnswer": 0,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "The primary weakness of 3-D pie charts is:",
-      "options": ["Color blindness", "Occlusion", "Lie factor distortion", "Low resolution"],
+      "question": "Which rule recommends overview before zoom?",
+      "options": ["Tufte’s rule", "Stevens’ rule", "Shneiderman’s mantra", "Weber’s law"],
       "correctAnswer": 2,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Which dataset type is best modeled by nodes and edges?",
-      "options": ["Tables", "Networks", "Spatial fields", "Grids"],
+      "question": "Interaction feedback within 0.1 s is needed to convey:",
+      "options": ["Accuracy", "Causality", "Enjoyment", "Memory"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Interpolation in field data answers the question:",
-      "options": ["What is the trend?", "Where are the outliers?", "What happens between samples?", "How to normalize?"],
+      "question": "A scatterplot matrix (SPLOM) is best for:",
+      "options": ["One variable", "Two variables", "Many pairwise variables", "Hierarchical data"],
       "correctAnswer": 2,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "A dendrogram visualizes:",
-      "options": ["Network paths", "Hierarchical clustering", "Spatial fields", "Time series"],
+      "question": "Which idioms use containment marks?",
+      "options": ["Scatterplots", "Treemaps", "Node-link diagrams", "Line charts"],
       "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "Which technique helps mitigate color-constancy issues in marks?",
-      "options": ["Adding borders", "Increasing saturation", "Using rainbow", "Reducing luminance"],
-      "correctAnswer": 0,
+      "question": "Choropleth maps color geographic:",
+      "options": ["Points", "Districts", "Vectors", "Isolines"],
+      "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "mcq",
-      "question": "The data-ink ratio should ideally be:",
-      "options": ["0.5", "1.0", "2.0", "As high as possible within reason"],
-      "correctAnswer": 3,
+      "question": "Isosurfaces are the 3-D extension of which 2-D idiom?",
+      "options": ["Choropleth", "Isopleth", "Dot density", "Cartogram"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "A network with no cycles is a:",
+      "options": ["Graph", "Tree", "Field", "Matrix"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Which idiom scales to millions of edges?",
+      "options": ["Node-link", "Adjacency matrix", "Treemap", "Pie chart"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Brushing and linking is an example of:",
+      "options": ["Filtering", "Deriving", "Coordinated highlighting", "Zooming"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "A boxplot aggregates data to show:",
+      "options": ["Individual points", "Distribution summaries", "Exact values", "Time trends"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Scagnostics characterizes scatterplots by:",
+      "options": ["Counting points", "Computing shape adjectives", "Fitting regression", "Color mapping"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "VisDB arranges pixels in a ________ to show relevance.",
+      "options": ["Grid", "Histogram", "Spiral", "Tree ring"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "InterRing uses distortion to:",
+      "options": ["Animate transitions", "Zoom into hierarchy", "Change color", "Rotate view"],
+      "correctAnswer": 1,
       "points": 20
     },
     {
       "type": "fill",
-      "question": "The opponent-process theory pairs red-green, blue-yellow, and ________.",
-      "correctAnswers": ["black-white"],
-      "hint": "Opposite ends of brightness",
+      "question": "The four nested levels of vis design are Domain, Abstraction, Idiom, and ________.",
+      "correctAnswers": ["Algorithm"],
+      "hint": "Implementation level",
       "points": 10
     },
     {
       "type": "fill",
-      "question": "A special network that is acyclic and has at most one parent per node is called a ________.",
+      "question": "The illusion where gray bands appear to have gradients even though they are uniform is called the ________ illusion.",
+      "correctAnswers": ["Chevreul"],
+      "hint": "Named after a French chemist",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "According to Stevens, perceived sensation = physical intensity raised to the ________.",
+      "correctAnswers": ["power", "exponent"],
+      "hint": "Mathematical operation",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "The mantra ‘Overview first, zoom and filter, then ________ on demand’ completes Shneiderman’s interaction recipe.",
+      "correctAnswers": ["details"],
+      "hint": "Opposite of overview",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "A 2-D mark that has zero free spatial channels left is the ________ mark.",
+      "correctAnswers": ["area"],
+      "hint": "2-D shape",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "The ratio of ink representing data to total ink is called the ________ ratio.",
+      "correctAnswers": ["data-ink"],
+      "hint": "Hyphenated",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "Encoding one attribute to both height and color is termed ________ encoding.",
+      "correctAnswers": ["redundant"],
+      "hint": "Means duplicated",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "A special case of networks with no cycles is a ________.",
       "correctAnswers": ["tree"],
-      "hint": "Grows upward",
+      "hint": "Grows from root to leaves",
       "points": 10
     },
     {
       "type": "fill",
-      "question": "The perceptual phenomenon where items 'pop out' pre-consciously is called ________ processing.",
-      "correctAnswers": ["preattentive"],
-      "hint": "Before attention",
-      "points": 10
-    },
-    {
-      "type": "fill",
-      "question": "Tufte’s term for decorative graphics that do not convey data is ________.",
-      "correctAnswers": ["chartjunk"],
-      "hint": "One word, starts with 'chart'",
-      "points": 10
-    },
-    {
-      "type": "fill",
-      "question": "The smallest noticeable difference divided by the baseline stimulus is the ________ fraction.",
-      "correctAnswers": ["Weber"],
-      "hint": "Surname",
+      "question": "The pixel-oriented technique that spirals items by relevance is ________.",
+      "correctAnswers": ["VisDB"],
+      "hint": "Acronym",
       "points": 10
     },
     {
       "type": "multiple",
-      "question": "Select strengths of adjacency matrices over node-link diagrams.",
-      "options": ["Scalable to dense networks", "Easy path tracing", "Straightforward layout", "Good for clusters"],
-      "correctAnswers": [0, 2, 3],
+      "question": "Which are preattentive visual attributes?",
+      "options": ["Color hue", "Length", "Shape", "Area", "Orientation"],
+      "correctAnswers": [0, 1, 2, 4],
       "points": 12
     },
     {
       "type": "multiple",
-      "question": "Which are valid sequential color-map choices?",
-      "options": ["Viridis", "Plasma", "Jet", "Inferno"],
+      "question": "Select weaknesses of choropleth maps.",
+      "options": ["District-size bias", "Color-map sensitivity", "High discriminability", "Limited to one attribute"],
       "correctAnswers": [0, 1, 3],
       "points": 12
     },
     {
       "type": "multiple",
-      "question": "Select design choices that reduce visual clutter.",
-      "options": ["Derive new attributes", "Facet into small multiples", "Add chartjunk", "Embed focus+context"],
+      "question": "Which tasks fall under the Query action?",
+      "options": ["Identify", "Compare", "Summarize", "Browse", "Explore"],
+      "correctAnswers": [0, 1, 2],
+      "points": 12
+    },
+    {
+      "type": "multiple",
+      "question": "Select recommended alternatives to rainbow color maps.",
+      "options": ["Viridis", "Plasma", "Jet", "Black-body spectrum"],
       "correctAnswers": [0, 1, 3],
       "points": 12
     },
     {
       "type": "multiple",
-      "question": "Which interactions are part of the ‘Change’ manipulation class?",
-      "options": ["Sort order", "Filter items", "Zoom camera", "Switch color map"],
-      "correctAnswers": [0, 3],
-      "points": 12
-    },
-    {
-      "type": "multiple",
-      "question": "Select true statements about 3-D visualizations.",
-      "options": ["Always improve accuracy", "Can introduce lie factor", "Should match data dimensionality", "Require VR headsets"],
-      "correctAnswers": [1, 2],
+      "question": "Which idioms use containment marks?",
+      "options": ["Treemaps", "Sunbursts", "Node-link diagrams", "Bubble sets"],
+      "correctAnswers": [0, 1, 3],
       "points": 12
     }
   ]
