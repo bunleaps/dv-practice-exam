@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Exam Practice Quiz</h1>
+            <div class="quiz-info">
+                <span id="progress">Question 1 of 1</span>
+                <span id="score">Score: 0</span>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div id="quizContent"></div>
+        </div>
+
+        <div class="navigation">
+            <button id="prevBtn" class="btn btn-secondary" onclick="previousQuestion()">Previous</button>
+            <button id="checkBtn" class="btn btn-warning" onclick="checkCurrentQuestion()" style="display:none;">Check Answer</button>
+            <button id="nextBtn" class="btn btn-primary" onclick="nextQuestion()">Next</button>
+            <button id="submitBtn" class="btn btn-success" onclick="submitQuiz()" style="display:none;">Submit Quiz</button>
+        </div>
+
+        <div id="resultModal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="resultTitle">Quiz Complete!</h2>
+                <div id="resultDetails"></div>
+                <button class="btn btn-primary" onclick="restartQuiz()">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the capital of France?",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Madrid"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Which programming language is known for web development?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "C++",
+        "Java"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "type": "fill",
+      "question": "The largest planet in our solar system is ________.",
+      "correctAnswers": [
+        "Jupiter",
+        "jupiter"
+      ],
+      "hint": "Starts with 'J'",
+      "points": 10
+    },
+    {
+      "type": "fill",
+      "question": "The chemical formula for water is ________.",
+      "correctAnswers": [
+        "H2O",
+        "h2o"
+      ],
+      "hint": "Two hydrogen atoms and one oxygen atom",
+      "points": 10
+    },
+    {
+      "type": "multiple",
+      "question": "Which of the following are primary colors?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow",
+        "Orange"
+      ],
+      "correctAnswers": [0, 2, 3],
+      "points": 12
+    },
+    {
+      "type": "multiple",
+      "question": "Which of these are mammals?",
+      "options": [
+        "Dog",
+        "Eagle",
+        "Cat",
+        "Snake",
+        "Whale"
+      ],
+      "correctAnswers": [0, 2, 4],
+      "points": 12
+    }
+  ]
+}
